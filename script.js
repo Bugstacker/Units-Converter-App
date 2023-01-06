@@ -28,7 +28,6 @@
         const meters = (unit * 3.281).toFixed(3);
         const feet = (unit / 3.281).toFixed(3);
         lengthAnswer.innerHTML = `<h4>Length (Meter/Feet)</h4> <p>${unit} meters = ${meters} feet | ${unit} feet = ${feet} meters</p>`
-
       }
 
       length();
@@ -63,6 +62,8 @@
     else {
       document.getElementById("convert").innerHTML += "<p>Please enter a number!</p>"
     }
+
+    document.getElementById("unit").value = "";
 
   });
 
