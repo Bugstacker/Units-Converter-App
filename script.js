@@ -56,6 +56,8 @@
 
       mass();
 
+      document.getElementById("unit").value = "";
+
     }
     // Error Message
 
@@ -63,7 +65,6 @@
       document.getElementById("convert").innerHTML += "<p>Please enter a number!</p>"
     }
 
-    document.getElementById("unit").value = "";
 
   });
 
