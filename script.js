@@ -39,7 +39,7 @@
 
         const litres = (unit * 0.264).toFixed(3);
         const gallons = (unit / 0.264).toFixed(3);
-        volumeAnswer.innerHTML = `<h4>Volume (Litres/Gallons)</h4> <p>${unit} meters = ${litres} gallons | ${unit} feet = ${gallons} litres</p>`
+        volumeAnswer.innerHTML = `<h4>Volume (Litres/Gallons)</h4> <p>${unit} litres = ${litres} gallons | ${unit} gallons = ${gallons} litres</p>`
 
       }
 
@@ -51,7 +51,7 @@
 
         const kilograms = (unit * 2.204).toFixed(3);
         const pounds = (unit / 2.204).toFixed(3);
-        massAnswer.innerHTML = `<h4>Mass (Kilograms/Pounds)</h4> <p>${unit} meters = ${kilograms} pounds | ${unit} feet = ${pounds} kilograms</p>`
+        massAnswer.innerHTML = `<h4>Mass (Kilograms/Pounds)</h4> <p>${unit} kilos = ${kilograms} pounds | ${unit} pounds = ${pounds} kilograms</p>`
 
       }
 
