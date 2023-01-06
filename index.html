@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Inter Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- styles -->
+  <link rel="stylesheet" href="styles.css">
+  <title>Unit Converter</title>
+</head>
+
+<body>
+
+  <!-- Header section which also contains the form -->
+  <header id="header">
+    <h1>Metric/Imperial Unit Conversion</h1>
+    <div>
+      
+      <form action="somephpfile" method="post" id="convert myForm">
+
+        <input type="text" name="unit" id="unit" placeholder=0 class="block"  onfocus="this.value = ''">
+        <input type="submit" name="convertunit" class="block" id="convert-button" value="convert">
+
+      </form>
+
+    </div>
+
+  </header>
+
+  <!-- Main contains the results -->
+  <main>
+    <div id="units-container">
+
+      <div id="length" class="units-answer">
+        <h4></h4>
+        <p></p>
+      </div>
+
+      <div id="volume" class="units-answer">
+        <h4></h4>
+        <p></p>
+      </div>
+
+      <div id="mass" class="units-answer">
+        <h4></h4>
+        <p></p>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- The script tag -->
+
+  <script src="script.js"></script>
+</body>
+</html>
